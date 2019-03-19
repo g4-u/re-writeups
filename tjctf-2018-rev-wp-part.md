@@ -1,15 +1,6 @@
----
-title: tjctf-2018 Reverse 部分writeup
-date: 2018-08-13 09:28:14
-categories:
- - taka
-tags:
- - reverse
----
 #### Validator(30p)
 > I found a flag validation program. Do what you want with it.
 
-<!--more-->
 直接丢进IDA，查看main函数，发现逻辑异常简单:
 ```c
 strcpy(s1, "tjctf{ju57_c4ll_m3_r3v3r53_60d_fr0m_n0w_0n}");

@@ -1,12 +1,3 @@
----
-title: ISITDTU CTF 2018 Reverse 部分writeup
-date: 2018-08-01 11:23:29
-categories:
- - taka
-tags:
- - reverse
----
-
 #### Cool
 
 > (3rd) ELF 64-bit executable
@@ -18,7 +9,6 @@ tags:
 `"Wrong~"`
 `"Congratulation~~~"`
 `"Your flag: ISITDTU{ %s }"`
-<!--more-->
 根据字符串可以找到main函数：
 
     首先读取输入，存入地址602100

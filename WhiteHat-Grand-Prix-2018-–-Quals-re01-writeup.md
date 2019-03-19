@@ -1,18 +1,9 @@
----
-title: WhiteHat Grand Prix 2018 – Quals re01/re03 writeup(updated)
-date: 2018-08-20 11:23:35
-categories:
- - taka
-tags:
- - reverse
----
 #### re01
 
 > No hint.
 
 > WriteUp: This challenge is pretty straight forward asks for a key and gives us a flag.
 
-<!--more-->
 
 直接运行WhiteHat.exe，没有任何提示
 于是丢到OD里，对`GetWindowTextA`下断，可以找到函数`sub_40199B`：

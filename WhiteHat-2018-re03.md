@@ -1,16 +1,7 @@
----
-title: WhiteHat-2018 re03 writeup
-date: 2018-09-03 15:57:08
-categories:
- - taka
-tags:
- - reverse
----
 #### re03 - 380p
 > No hint.
 
 直接运行`DebugMe.exe`，发现是输入key然后进行验证。
-<!--more-->
 用OD对`GetWindowText`下断，断在函数`sub_40BFA9`，查看对该函数的引用，可以发现程序大致流程如下：
 ```shell
 +-----+     +------------+     +----------------+      +----------------+

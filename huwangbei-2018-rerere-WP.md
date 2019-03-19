@@ -1,12 +1,3 @@
----
-title: 护网杯 2018 rerere writeup
-date: 2018-10-15 11:54:29
-categories:
- - taka
-tags:
- - reverse
----
-
 比较烦的一道题
 先运行看看：
     
@@ -15,7 +6,7 @@ tags:
     
     D:\CTF\CTFs\huwangbei\rerere>.\task_huwang-refinal-7.exe 12346
     No! You are Wrong
- <!--more-->   
+
 需要在命令行传入一个hash值。
 用IDA打开，找到引用字符串`No! You are Wrong`的函数：
 ```c
